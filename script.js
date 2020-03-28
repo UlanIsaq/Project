@@ -20,20 +20,23 @@ let time;
 money = prompt("Ваш бюджет на месяц?");
 console.log(money);
 time = prompt("Введите дату в формате YYYY-MM-DD");
-let necessaryExpenses = prompt("Введите обязательную статью расходов в этом месяце");
-let necessaryExpensesAmount = prompt("Во сколько обойдется?");
+let necessaryExpenses1 = prompt("Введите обязательную статью расходов в этом месяце");
+let necessaryExpensesAmount2 = prompt("Во сколько обойдется?");
+let necessaryExpenses2 = prompt("Введите обязательную статью расходов в этом месяце");
+let necessaryExpensesAmount3 = prompt("Во сколько обойдется?");
 let appData = {
     budget: money,
     timeData: time,
     expenses: {
-        necessaryExpenses: necessaryExpensesAmount
-
     },
-    optionalExpenses:"",
+    optionalExpenses:{},
     income:[],
     savings: false
 
 };
-alert(1);
-alert("бюджет на 1 день : " +money/30);
+appData.expenses.necessaryExpenses1=necessaryExpensesAmount2;
+appData.expenses.necessaryExpenses2=necessaryExpensesAmount3;
+
+//alert(1);
+alert("бюджет на 1 день : " +appData.budget/30);
 
