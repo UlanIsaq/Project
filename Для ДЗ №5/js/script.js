@@ -4,7 +4,7 @@
 
 // console.log(document.body.getElementsByClassName('menu-item'));
 // console.log(document.body.querySelectorAll('.menu .menu-item'));
-let div = document.createElement('div')
+let div = document.createElement('div');
 let li = document.querySelectorAll('.menu .menu-item');
 let ul = document.querySelector('.menu');
 // console.log(ul.length);

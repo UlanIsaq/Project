@@ -2,23 +2,6 @@
 
 
 
-//alert(1);
-// console.log(leftBorderWidth);
-// var leftBorderWidth = 1;
-// let second = 2;
-// const pi = 3.14;
-// console.log(leftBorderWidth);
-// alert(1);
-// let person1 = {
-//     name: "Kevin",
-//     age: 25
-// };
-// console.log(person1);
-// var age =25;
-// console.log(age);
-////
-//alert(1);
-
 
 let money;
 let time;
